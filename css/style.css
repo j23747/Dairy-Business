@@ -2,7 +2,7 @@
 
 .header-top {
     background-color: #f1ecf3;
-    padding-left: 15px;
+    padding-left: 110px;
     padding-bottom: 25px;
     color: rgb(68, 61, 163);
     text-align: center;
@@ -13,7 +13,33 @@
 .header-right {
     float: right;
     
+ }
+}
+.body-section {
+    text-align: right;
+}
+#background-img {
+    width: 250px;
+    float: left;
+    height: -15px;
+    margin: 2px;
+    padding-top: 5px;
+    padding-left: 1px;
+    text-align: right;
 
+}
+.Intro {
+    text-align: center;
+    flex-direction: unset;
+    height: 550px;
+    background-repeat: no-repeat;
+    font-size: 26px;
+    justify-content: space-between;
+
+}
+.body-section-reports {
+    justify-content: sp
+}
 }
 
 }
