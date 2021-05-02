@@ -15,9 +15,11 @@
     
  }
 }
+/*Styling Body section */
 .body-section {
     text-align: right;
 }
+/*Styling background image */
 #background-img {
     width: 250px;
     float: left;
@@ -28,6 +30,8 @@
     text-align: right;
 
 }
+
+/*Styling Introduction, Heading & paragraph */
 .Intro {
     text-align: center;
     flex-direction: unset;
@@ -40,9 +44,14 @@
     }
 
 }
+/*Styling section-reports */
+
 .body-section-reports {
     justify-content: space-around;
+    height: 250px;
+    background-color: blue;
 }
+/* Styles footer to center */
 .footer-section {
     position: sticky;
     font-size: 26px;
