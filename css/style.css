@@ -1,12 +1,31 @@
 .header-container {
-    background-color: #c6cd91;
 
+}
+
+navbar-header {
+    width: 200px;
 }
 p {
     font-weight: 300;
 }
   /* styling the header */
 
-#logo {
-    
+.logo {
+    height: 45px;
+
+}
+.nav-custum-active {
+    background-color: #e7e7e7;
+}
+.nav-navbar {
+    align-items: flex-end;
+    text-align: right;
+    color: black;
+    background-color:#e7e7e7;
+
+}
+.col-md-4 main-intro {
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+}
 }
