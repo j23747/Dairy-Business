@@ -1,31 +1,19 @@
-.header-container {
+/* Styling header part */
+
+.header-top {
+    background-color: #f1ecf3;
+    padding-left: 15px;
+    padding-bottom: 25px;
+    color: rgb(68, 61, 163);
+    text-align: center;
+    font-size: 30px;
+    padding: 7px;
+    border-top: -2px;
+}
+.header-right {
+    float: right;
+    
 
 }
 
-navbar-header {
-    width: 200px;
-}
-p {
-    font-weight: 300;
-}
-  /* styling the header */
-
-.logo {
-    height: 45px;
-
-}
-.nav-custum-active {
-    background-color: #e7e7e7;
-}
-.nav-navbar {
-    align-items: flex-end;
-    text-align: right;
-    color: black;
-    background-color:#e7e7e7;
-
-}
-.col-md-4 main-intro {
-    flex-wrap: wrap;
-    -ms-flex-align: center;
-}
 }
