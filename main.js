@@ -1,4 +1,4 @@
-//Declaring  Global Variables
+//Declaring the Global Variables
 let selling_price = 45; //cost of milk per litre
 let shedsProduction = [510, 308, 486, 572];
 let shedsName = ["A", "B", "C", "D"];
@@ -18,7 +18,7 @@ let totalProduction = function(){
     return totalLitres;
 }
 totalProduction();
-// Stores total number of days for each respective month in a leap year
+// Stores total number of days for each respective month in a leap year i.e 366 days
 let months = {January: 31, February: 29, March: 31, April: 30, May: 31, June: 30, July: 31, August: 31, September: 30, October: 31, November: 30, December: 31}
 // calculate total income on a weekly, daily, monthly and yearly basis
 let incomeOverTime = function income(selling_price, time){
@@ -29,7 +29,7 @@ let incomeOverTime = function income(selling_price, time){
     console.log("\n");
     console.log("Your weekly income will be Ksh " + weeklyTotal);
     console.log("Your yearly income will be Ksh " + yearlyTotal);
-    // Iterates over the months object and prints the total amount of money to be made
+    //Iterates over the months object and prints the total amount of money to be made
     for (const [key, value] of Object.entries(months)) {
         console.log("Your income for " + key + " is " + value * totalLitres * selling_price);
       }
