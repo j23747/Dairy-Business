@@ -1,66 +1,55 @@
-/* Styling header part */
 
-.header-top {
-    background-color: #f1ecf3;
-    padding-left: 110px;
-    padding-bottom: 25px;
-    color: rgb(68, 61, 163);
-    text-align: center;
-    font-size: 30px;
-    padding: 7px;
-    border-top: -2px;
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
 }
-.header-right {
-    float: right;
+
+.header-top{
+    background-position: center;
+    background-size: cover;
+    background-image: url("/Images/image-2.jpg");
+    min-height: 75%;
     
- }
-}
-/*Styling Body section */
-.body-section {
+  }
+/* styling the buttons */
+.header-right {
     text-align: right;
+    font-size: 30px;
+    background-color: rgb(0, 184, 55);
+    padding-right: 10px;
 }
-/*Styling background image */
-#background-img {
-    width: 250px;
+
+*/styling the columns */
+.rows-calculation::after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+.column {
+    background-color: #aaa;
     float: left;
-    height: -15px;
-    margin: 2px;
-    padding-top: 5px;
-    padding-left: 1px;
-    text-align: right;
+    padding: 9px;
+    width: 33.33%;
+    height: 50px;
+
 
 }
-
-/*Styling Introduction, Heading & paragraph */
-.Intro {
-    text-align: center;
-    flex-direction: unset;
-    height: 550px;
-    background-repeat: no-repeat;
-    font-size: 26px;
-    justify-content: space-between;
-    color: rgb(8, 7, 5);
-
-    }
+#column-2 {
+    background-color: #bbb;
+}
+#column-3 {
+    background-color: #ccc;
 
 }
-/*Styling section-reports */
-
-.body-section-reports {
-    justify-content: space-around;
-    height: 250px;
-    background-color: blue;
-}
-/* Styles footer to center */
-.footer-section {
-    position: sticky;
-    font-size: 26px;
-    text-align: center;
-    font-weight: bolder;
-    padding-bottom: 5px;
-    background-color: cyan;
-    border-radius: 10px;
-
+#column-4 {
+    background-color: #ddd;
 }
 
 }
+  
+
+
+
+/* Styling footer */
+
