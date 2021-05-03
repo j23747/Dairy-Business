@@ -55,9 +55,11 @@ body, html {
 
 /* Styling footer */
 
-.footer-section{
-    position: absolute;
-    bottom: 0;
-    left: 0;
+.footer-1{
+    position: fixed;
+    color: white;
+    text-align: right;
+
+   
 
 }
