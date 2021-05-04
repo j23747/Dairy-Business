@@ -16,7 +16,7 @@ You need to have visual studio code installed.
 . Javascript
 
 # Support and contact details
-Email : clare.limo@student.moringaschool.com
+Email : josphat.muyo@student.moringaschool.com
 
 # License
 # MIT License
