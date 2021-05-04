@@ -6,6 +6,7 @@ This site captures daily milk produced and in turn a monthly, weekly and yearly 
 
 # Setup/Installation Requirements
 You need to have visual studio code installed.
+
 ~ git clone https://github.com/josphatmwania/Dairy-Business.git
 
 ~ Go Live Using the index.html file
