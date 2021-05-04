@@ -21,11 +21,13 @@ body, html {
 
 }
 
-*/styling the columns */
-.rows-calculation::after {
-    content: "";
-    display: table;
-    clear: both;
+*/styling the calculation div */
+
+.calculations-1{
+    color: #000;
+    font-size: xx-large;
+    align-items: center;
+
 
 }
 .column {
