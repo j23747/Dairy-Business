@@ -22,7 +22,4 @@ You need to have visual studio code installed.
 # Support and contact details
 Email : josphat.muyo@student.moringaschool.com
 
-# License
-# MIT License
-
 Copyright (c) [2021] [JOSPHAT MWANIA]
