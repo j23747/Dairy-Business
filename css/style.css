@@ -11,6 +11,14 @@ body, html {
     min-height: 75%;
     
   }
+
+/*Styling the Heading part text alignment */
+
+.heading-part {
+    text-align: center;
+    color: cornsilk ;
+}
+
 /* styling the buttons */
 .header-right {
     text-align: right;
