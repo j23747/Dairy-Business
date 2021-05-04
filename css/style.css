@@ -15,8 +15,10 @@ body, html {
 /*Styling the Heading part text alignment */
 
 .heading-part {
-    text-align: center;
-    color: cornsilk ;
+    text-align: left;
+    color: rgb(17, 16, 12) ;
+    font-size: x-large;
+    padding-left: 5px;
 }
 
 /* styling the buttons */
