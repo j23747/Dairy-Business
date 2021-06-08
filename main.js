@@ -35,3 +35,12 @@ let incomeOverTime = function income(selling_price, time){
       }
 }
 incomeOverTime(selling_price, time);
+
+//Get elementByID//
+//CREATE P element//
+
+
+
+
+
+
